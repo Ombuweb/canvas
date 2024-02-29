@@ -26,11 +26,17 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Guide',
-        items: [{ text: 'Intallation', link: '/installation' }],
+        items: [{ text: 'Installation', link: '/installation' }],
       },
       {
         text: 'Canvas',
-        link: "/canvas",
+        link: "/canvas/index",
+        collapsed: false,
+        items: [
+          { text: 'CanvasRenderingContext2D', link: '/canvas/CanvasRenderingContext2D' },
+          { text: 'WebGLRenderingContext', link: '/canvas/WebGLRenderingContext' },
+
+        ],
       },
       {
         text: 'Polyfills',
