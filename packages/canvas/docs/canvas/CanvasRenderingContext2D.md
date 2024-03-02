@@ -1,5 +1,7 @@
 # CanvasRenderingContext2D
 
+This page lists the methods and properties of the `CanvasRenderingContext2D` object returned by the `canvas.getContext('2d')`.
+
 ## Drawing Rectangles
 
 The plugin provides several methods for drawing rectangles on the canvas:
